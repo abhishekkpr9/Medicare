@@ -26,6 +26,12 @@ namespace Medicare
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/dashboard/css").Include(
+                      "~/Content/assets/css/*.css"));
+
+            bundles.Add(new ScriptBundle("~/Script/dashboard").Include(
+                      "~/Scripts/*.js"));
         }
     }
 }
