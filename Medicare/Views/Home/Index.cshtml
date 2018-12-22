@@ -21,11 +21,42 @@
 <section class="hero-area">
      <div class="hero-slides owl-carousel">
          <!-- Single Hero Slide -->
-         <div class="single-hero-slide bg-img bg-overlay-white" style="background-image: url('../../img/bg-img/hero1.jpg');">
-             <div class="container h-100">
+         <div class="single-hero-slide bg-img bg-overlay-white" style="background-image: url('../../img/bg-img/hero1.jpg');height:626px !important">
+             <div class="container" style="height:100%!important">
                  <div class="row h-100 align-items-center">
-                     <div class="col-12">
+                     <div class="col-6" style="background-color: white;padding: 3%;border:4px solid;border-color: #081f3e;">
                          <div class="hero-slides-content">
+
+                             <div class="login-box-body">
+                                 <p class="login-box-msg"><b>Sign in to start your session</b></p>
+                                 <form action="../../index2.html" method="post">
+                                     <div class="form-group has-feedback">
+                                         <input type="email" class="form-control" placeholder="Email">
+                                         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                     </div>
+                                     <div class="form-group has-feedback">
+                                         <input type="password" class="form-control" placeholder="Password">
+                                         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                     </div>
+                                     <div class="row">
+                                         <div class="col-md-4">
+                                         </div>
+                                         <!-- /.col -->
+                                         <div class="col-md-4">
+                                             <button type="submit" class="btn btn-primary btn-block btn-flat">Reset</button>
+                                             
+
+                                         </div>
+                                         <div class="col-md-4">
+                                             <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+                                         </div>
+                                         <!-- /.col -->
+                                     </div>
+                                 </form>
+                                 
+                                 <!-- /.social-auth-links -->
+                                 <a href="#">I forgot my password</a><br>
+                             </div>
                          </div>
                      </div>
                  </div>
